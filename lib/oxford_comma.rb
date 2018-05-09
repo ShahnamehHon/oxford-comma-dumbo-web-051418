@@ -7,3 +7,4 @@ def oxford_comma(array)
     conjunction = array.pop
     oxford_comma = array.join(", ").concat(", and #{conjunction}")
   end
+end
